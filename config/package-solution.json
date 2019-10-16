@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "calendar-webpart-client-side-solution",
+    "id": "9c516925-25c0-4771-84f6-afbea34583c6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "webApiPermissionRequests": [  
+      {  
+        "resource": "Microsoft Graph",  
+        "scope": "User.ReadBasic.All"  
+      }  
+    ]  
+  },
+  "paths": {
+    "zippedPackage": "solution/calendar-webpart.sppkg"
+  }
+}
